@@ -4,15 +4,17 @@
   "description": "Website for White Oak Volunteer Fire Dept.",
   "main": "app.js",
   "scripts": {
-    "start" : "node app", 
-    "dev" : "nodemon app"
+    "start": "node app",
+    "dev": "nodemon app", 
+    "watch:sass": "sass --watch ./sass/main.scss ./public/css/style.css --style=compressed"
   },
   "author": "Hayden Bradfield",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^8.2.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "sass": "^1.32.8"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
