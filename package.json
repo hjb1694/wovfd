@@ -4,7 +4,8 @@
   "description": "Website for White Oak Volunteer Fire Dept.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start" : "node app", 
+    "dev" : "nodemon app"
   },
   "author": "Hayden Bradfield",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "dotenv": "^8.2.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
